@@ -13,7 +13,7 @@ describe('reject()', () => {
       res: 'Hayward',
       drive: null
     };
-    const values = _.reject(obj, val => val === null).
+    const values = _.reject(obj, val => val === null);
     expect(values).toEqual(['Bruce', 'Hayward']);
   });
 });
